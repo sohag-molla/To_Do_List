@@ -18,7 +18,7 @@ addBtn.addEventListener('click', (event) => {
 
     if (input.value.trim() != 0) {
         let newItem = document.createElement('div');
-        newItem.classList.add('item');
+        newItem.className='item flex justify-between';
         newItem.innerHTML = `
 
           <p> ${input.value} </p>
