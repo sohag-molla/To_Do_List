@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+     <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu4FkTTjt4JR4hHlzTt47Cm9ksBzp640OcuA&s" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-blue-950">
+    <h1 class="text-3xl text-center font-mono font-bold w-full capitalize mb-8 mt-16 text-yellow-100">To-Do List</h1>
+
+    <div class="container container-md mx-auto mt-1 bg-[#fff] shadow-black shadow-md w-[550px] p-[35px] rounded-md">
+        <div class="list-head flex gap-2">
+            <input type="text" id="entered-list" placeholder="Enter Your Task"
+                class="border border-blue-700 rounded-md text-blue-700 px-2 py-2 w-full hover:border-gree">
+            <button id="add-list"
+                class="border border-blue-700 rounded-md text-blue-700 hover:bg-blue-700 hover:text-white transition px-4 py-2 font-medium shadow-md hover:border-none">Add</button>
+
+            <button id="save-list"
+                class="border border-blue-700 rounded-md text-blue-700 hover:bg-blue-700 hover:text-white transition px-4 py-2 font-medium shadow-md hover:border-none hidden">Save</button>
+
+
+
+        </div>
+
+        <div id="tasks" class="w-full mt-8">
+            <!-- <div class="item p-5 flex mb-10 justify-between items-center shadow-sm shadow-gray-400 rounded-md">
+               <p>New Item here</p>
+               <div class="item-btn cursor-pointer">
+                <i class="fa-solid fa-pen-to-square mx-5 text-blue-700"></i>
+                <i class="fa-solid fa-trash text-red-700"></i>
+               </div>  -->
+        </div>
+
+    </div>
+    </div>
+
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
